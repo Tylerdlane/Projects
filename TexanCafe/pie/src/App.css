@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* or any fixed height */
+}
+
+div#pielist{
+  background-color: #1e1e1e;
+  border: 3px,solid,rgb(102, 94, 94);
+  height:300px;
+  width: 250px;
+  overflow: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul.pie{
+  border: 1px,white,solid;
+  box-shadow: 1px 1px 10px white;
+  background-color: grey;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul.pie:hover{
+  transform: scale(1.05);
+}
