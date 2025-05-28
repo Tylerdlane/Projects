@@ -9,13 +9,21 @@ div#pielist{
   background-color: #1e1e1e;
   border: 3px,solid,rgb(102, 94, 94);
   height:300px;
-  width: 250px;
+  width: 500px;
   overflow: auto;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
 }
+ul{
+  overflow: visible;
+  list-style: none;
+  padding: 0;
+}
+li{
+  transition: transform 0.3s ease;
+}
 
-ul.pie{
+li.pie{
   border: 1px,white,solid;
   box-shadow: 1px 1px 10px white;
   background-color: grey;
@@ -23,6 +31,6 @@ ul.pie{
   padding: 10px;
 }
 
-ul.pie:hover{
-  transform: scale(1.05);
+li.pie:hover{
+  transform: scale(1.025);
 }

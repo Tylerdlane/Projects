@@ -6,36 +6,29 @@ function App() {
     <>
       <div className='container'>
         <div id="pielist">
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
-          <ul className="pie">Pie</ul>
+          <ul className="differentPies">
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+            <li className="pie"></li>
+          </ul>
+          
         </div>
 
       </div>
