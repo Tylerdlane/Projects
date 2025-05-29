@@ -5,6 +5,29 @@ body{
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
+  margin: 5em;
+}
+.imgcontainer{
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imgcontainer img{
+  width:10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255)0.6;
+  transition: all ease-in-out 0.5s;
+}
+
+
+.imgcontainer img:hover{
+  width: 50%;
 }
 
 div#pielist{
@@ -25,12 +48,16 @@ li{
   transition: transform 0.3s ease;
 }
 
+li img{
+  height: 5em;
+  width: 5em;
+}
+
 li.pie{
   border: 1px,white,solid;
   box-shadow: 1px 1px 10px white;
   background-color: grey;
   margin: 10px;
-  padding:30px;
 }
 
 li.pie:hover{
