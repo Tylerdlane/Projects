@@ -5,7 +5,7 @@ body{
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
-  margin: 5em;
+  margin: 5em auto;
 }
 .imgcontainer{
   margin: 100px 0 0 200px;
