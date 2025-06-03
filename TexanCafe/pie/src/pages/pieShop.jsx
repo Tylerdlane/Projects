@@ -1,11 +1,13 @@
-import React from 'react'
-import Navbar from '../components/navBar'
+import pie1 from '../assets/pie1.jpg'
+import pie2 from '../assets/pie2.jpg'
+import pie3 from '../assets/pie3.jpg'
+import pie4 from '../assets/pie4.jpg'
+import pie5 from '../assets/pie5.jpg'
 
 const pieShop = () => {
   return (
     <>
-    <Navbar />
-    <div>pieShop</div>
+    <h4>CHECK OUT THE PIE</h4>
     <div className='container'>
         <div id="pielist">
           <ul className="differentPies">

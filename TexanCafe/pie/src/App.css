@@ -2,7 +2,6 @@ body{
   background-color: rgb(179, 179, 132);
 }
 .container {
-  display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
   margin: 5em auto;
