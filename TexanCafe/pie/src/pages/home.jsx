@@ -12,8 +12,9 @@ import HutTex from '../assets/HuttoTexan.jpg'
 function App() {
   return (
     <>
-      <div className="col-12 container">
-
+    <h1 className='title'>Welcome to the Texan Cafe!</h1>
+      <div className="col-12 container dinner">
+    
         {/* Pie Images Section */}
         <div className="imgcontainer">
           <img src={pie1} alt="Pie 1" className="img-fluid rounded" style={{ maxWidth: '300px' }} />
